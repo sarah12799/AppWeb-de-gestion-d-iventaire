@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.GestionDinventaire</groupId>
-	<artifactId>StockService</artifactId>
+	<artifactId>Stock-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>inventory-management</name>
 	<description>Gestion d&apos;inventaire avec plusieurs microservices</description>
