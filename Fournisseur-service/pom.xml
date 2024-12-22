@@ -8,11 +8,11 @@
 		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ProduitService</groupId>
-	<artifactId>Produit-service</artifactId>
+	<groupId>com.FournisseurService</groupId>
+	<artifactId>Fournisseur-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Produit-service</name>
-	<description>Gestion des Produits</description>
+	<name>Fournisseur-service</name>
+	<description>Gestion des fournisseurs</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -55,13 +55,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>com.GestionDinventaire</groupId>
-            <artifactId>Stock-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>
