@@ -2,29 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for inventory-management" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="Stock-service" />
-      </profile>
-      <profile name="Annotation profile for Produit-service" enabled="true">
+      <profile name="Annotation profile for client-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="Produit-service" />
         <module name="Facture-service" />
         <module name="Circuit-service" />
+        <module name="Stock-service" />
         <module name="Commande-service" />
-        <module name="Utilisateur-service" />
+        <module name="Produit-service" />
         <module name="client-service" />
+        <module name="Utilisateur-service" />
       </profile>
     </annotationProcessing>
   </component>
