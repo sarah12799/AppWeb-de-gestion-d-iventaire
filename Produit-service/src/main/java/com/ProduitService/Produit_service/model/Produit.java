@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
@@ -14,12 +15,13 @@ import java.util.Date;
 
 
 public class Produit {
-    Stock stock;
-    Long idProduit;
-    String nom;
-    Double prixUnitaire;
-    Integer seuilCritique;
-    Date dateAjout;
+    private Stock stock;
+    @Id
+    public Long idProduit;
+    private String nom;
+    private Double prixUnitaire;
+    private Integer seuilCritique;
+    private Date dateAjout;
 
 
 }
