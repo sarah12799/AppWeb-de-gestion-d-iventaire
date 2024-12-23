@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for client-service" enabled="true">
+      <profile name="Annotation profile for Facture-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -14,6 +14,7 @@
         <module name="Stock-service" />
         <module name="Commande-service" />
         <module name="Produit-service" />
+        <module name="Fournisseur-service" />
         <module name="client-service" />
         <module name="Utilisateur-service" />
       </profile>
